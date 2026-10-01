@@ -1,0 +1,14 @@
+[project]
+name = "agent-contour"
+version = "0.1.0"
+description = "Свой агент: цикл и четыре точки вставки. Код к докладу «Как не надо создавать ИИ-агентов»"
+requires-python = ">=3.14"
+dependencies = [
+    # Те же пакеты, что в курсе: ядро Microsoft Agent Framework и клиент Ollama.
+    # Без метапакета agent-framework — он тянет все облачные провайдеры разом
+    "agent-framework-core>=1.11.0",
+    "agent-framework-ollama>=1.0.0b260721",
+]
+
+[tool.ruff]
+line-length = 100

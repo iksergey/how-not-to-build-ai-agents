@@ -1,1 +1,29 @@
+# macOS
 .DS_Store
+
+# редакторы
+.vs/
+.idea/
+.vscode/
+*.user
+*.iml
+
+# .NET
+bin/
+obj/
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+.ruff_cache/
+
+# Go
+*.exe
+
+# Java / Gradle
+.gradle/
+build/
+
+# то, что агент пишет во время работы: журнал, состояние, заметки
+workspace/
